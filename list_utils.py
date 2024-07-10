@@ -3,6 +3,7 @@ from math import ceil
 
 
 def get_item_at_position(list_in: List, pos: int) -> List:
+    return list_in[int]
     """
     Returns the item at pos.
 
@@ -10,10 +11,12 @@ def get_item_at_position(list_in: List, pos: int) -> List:
     :param pos: Position of desired item in list_in
     :return: Item in pos
     """
-    pass  # remove pass statement and implement me
+    #pass  # remove pass statement and implement me
 
 
 def print_list_items(list_in: List) -> None:
+    for items in list_in:
+        return items
     """
     Given a list, this function iterates through it and prints each element.
 
